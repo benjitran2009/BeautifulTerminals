@@ -18,5 +18,13 @@ async function secondTest() {
     }
 }
 
-firstTest()
-secondTest()
+async function doTheThing() {
+
+    BeautifulTerminals.card("Test", "Thing")
+    secondTest()
+    firstTest()
+
+
+}
+
+doTheThing();
