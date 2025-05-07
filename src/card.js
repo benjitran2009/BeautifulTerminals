@@ -6,7 +6,7 @@ module.exports = ((type)=>{
             * ${description||""}
             ******************
             `)
-    } : type = "async" ?  function(title,description){
+    } : type = "async" ? async function(title,description){
         console.log(`
             ******************
             * ${title||""}
